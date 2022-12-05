@@ -1,23 +1,22 @@
-  import "./App.css";
-  import { useState, useEffect } from "react";
-  
-
-  /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
-  //shopData.forEach((item) => {
-  // item.image = process.env.PUBLIC_URL + "/" + item.image;
-  //});
-  /* ############################################################## */
+  import "./App.css";  
 
   function App() {
     
     return (
       <div className="App">
-        <div className="top-bar">
-
+        <div className="top-bar" id="navbar">
+          <a class="navbar-first" href="#Intro"><strong>Final Portfolio</strong></a>
+          <a href="#Personas">Personas & Storyboarding</a>
+          <div class="separator"></div>
+          <a href="#ResponsiveRedesign">Responsive Redesign</a>
+          <div class="separator"></div>
+          <a href="#IterativeDesign">Iterative Design</a>
+          <div class="separator"></div>
+          <a class="navbar-last" href="#AdditionalProjects">More!</a>
         </div>
 
         <div className="content">
-          <div className="intro">
+          <div className="intro" id="Intro">
             <div className="left-side-intro">
               <h2><b>Drowning Dolphin</b></h2>
               <p>Hello World! I am a student of Brown University and member of the Fall 2022 CSCI 1300 UI/UX course.</p>
@@ -32,7 +31,7 @@
             
           </div>
 
-          <div className="item1">
+          <div className="item1" id="Personas">
             <div className="left-side-item1">
               <div className="card">
                 <a href="">
@@ -46,7 +45,7 @@
             </div>
           </div>
 
-          <div className="item2">
+          <div className="item2" id="ResponsiveRedesign">
             <div className="left-side-item2">
               <h3><b>Developing a Redesign</b></h3>
               <p><i>Describe Assignment Here</i></p>
@@ -64,7 +63,7 @@
             </div>
           </div>
 
-          <div className="item3">
+          <div className="item3" id="IterativeDesign">
             <div className="left-side-item3">
               <div className="card">
                 <a href="https://drowningdolphin123.github.io/iterativedesign/"
@@ -81,7 +80,7 @@
             </div>
           </div>
 
-          <div className="item4">
+          <div className="item4" id="AdditionalProjects">
             <div className="top-item4">
                 <h3><b>Fun with React + HTML + Figma</b></h3>
             </div>
