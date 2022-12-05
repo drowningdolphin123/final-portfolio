@@ -45,22 +45,19 @@
 
  }
 
-.content {
-  flex: 1;
-}
-
-.intro {
-  display: flex;
-  flex-direction: row;
+.left-side-intro {
+  grid-area: ls-intro;
+  text-align: left;
   padding: 20px;
   background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
   margin-top: 48px;
-  justify-content: space-between;
 }
 
-.left-side-intro {
-  text-align: left;
-  padding-right: 20px;
+.right-side-intro {
+  grid-area: rs-intro;
+  padding: 20px;
+  background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
+  margin-top: 48px;
 }
 
 .dolphin {
@@ -69,58 +66,43 @@
   height: auto;
 }
 
-.item1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.left-side-item1 {
+  grid-area: ls-profiles;
   padding: 20px;
   background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
-  justify-content: space-between;
-
-}
-
-.left-side-item1 {
-  padding: 20px;
 }
 
 .right-side-item1 {
+  grid-area: rs-profiles;
+  text-align: left;
   padding: 20px;
-}
-
-.item2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 20px;
-  background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
-  justify-content: space-between;
+  background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
 }
 
 .left-side-item2 {
+  grid-area: ls-redesign;
+  text-align: left;
   padding: 20px;
+  background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
 }
 
 .right-side-item2 {
+  grid-area: rs-redesign;
   padding: 20px;
-
-}
-
-.item3 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 20px;
-  background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
-  justify-content: space-between;
+  background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
 }
 
 .left-side-item3{
+  grid-area: ls-iterative;
   padding: 20px;
+  background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
 }
 
 .right-side-item3{
+  grid-area: rs-iterative;
+  text-align: left;
   padding: 20px;
-
+  background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
 }
 
 .item4 {
@@ -164,4 +146,13 @@
   
   .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'ls-intro rs-intro'
+    'ls-profiles rs-profiles'
+    'ls-redesign rs-redesign'
+    'ls-iterative rs-iterative';
   }
