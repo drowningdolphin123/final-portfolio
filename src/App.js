@@ -40,12 +40,24 @@
             </div>
             <div className="right-side-item1">
               <h3><b>Learning about Profiles</b></h3>
-              <p><i>Describe Assignment Here</i></p>
+              <p>
+                Through observing and interviewing individuals interacting with the laundry machines in Hegeman Hall, I created
+                two personas based on their experiences and illustrated storyboards for the personas.
+              </p>
             </div>
 
             <div className="left-side-item2" id="ResponsiveRedesign">
               <h3><b>Developing a Redesign</b></h3>
-              <p><i>Describe Assignment Here</i></p>
+              <p>
+                In this project, I learned and practiced the workflow of redesigning a simple website.
+              </p>
+              <p>
+                I first identified the Washoe County Library website as a digital space that needed renovation, then analyzed and identified flaws in the existing interface.
+               </p>
+               <p> 
+                From there, I created low-fidelity and high-fidelity prototypes for various screensizes, and then learned how to build a 
+                responsive website based on those prototypes.
+              </p>
             </div>
             <div className="right-side-item2">
               <div className="card">
