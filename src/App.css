@@ -53,7 +53,7 @@
   display: flex;
   flex-direction: row;
   padding: 20px;
-  background-color: rgb(109,247,255,.5) ;
+  background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
   margin-top: 48px;
   justify-content: space-between;
 }
@@ -74,7 +74,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgb(0,197,205,.5);
+  background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
   justify-content: space-between;
 
 }
@@ -92,7 +92,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgb(111,101,189,.5);
+  background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
   justify-content: space-between;
 }
 
@@ -110,7 +110,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: rgb(89,70,178,.5);
+  background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
   justify-content: space-between;
 }
 
@@ -127,7 +127,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: rgb(51,51,161,.5);
+  background-image: linear-gradient(rgb(51,51,161), #000081);
 }
 
 .top-item4 {
