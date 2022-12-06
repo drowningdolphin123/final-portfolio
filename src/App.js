@@ -32,6 +32,7 @@
           </div>
 
           <div className="grid-container">
+            <div className="item1">
             <div className="left-side-item1" id="Personas">
               <div className="card">
                 <a href=""
@@ -66,7 +67,8 @@
                   </table>
                 </div>
             </div>
-
+            </div>
+            <div className="item2">
             <div className="left-side-item2" id="ResponsiveRedesign">
             <div className="bubbles">
                 <table>
@@ -103,7 +105,8 @@
                 </a>
               </div>
             </div>
-
+            </div>
+            <div className="item3">
             <div className="left-side-item3"  id="IterativeDesign">
               <div className="card">
                 <a href="https://drowningdolphin123.github.io/iterativedesign/"
@@ -139,6 +142,7 @@
                     </tr>
                   </table>
               </div>
+            </div>
             </div>
         </div>
         <div className="item4">
