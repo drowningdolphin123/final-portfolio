@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Harmattan';
+  font-family: 'Gill Sans';
 }
  
 .top-bar {
@@ -51,7 +51,7 @@
   flex-direction: row;
   justify-content: space-around;
   background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
-  margin-top: 48px;
+  margin-top: 47px;
  }
 
 .left-side-intro {
