@@ -15,6 +15,7 @@
           <a class="navbar-last" href="#AdditionalProjects">More!</a>
         </div>
 
+          <div className="page-content">
        
           <div className="intro">
             <div className="left-side-intro" id="Intro">
@@ -196,6 +197,9 @@
             </div>
           </div>
         </div>
+
+        </div>
+
         <div className="footer">
           <p>Made with love in Providence</p>
         </div>
