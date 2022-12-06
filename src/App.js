@@ -21,7 +21,7 @@
               <h2><b>Drowning Dolphin</b></h2>
               <div>
                 <p>Hello World! I am a student of Brown University and member of the Fall 2022 CSCI 1300 UI/UX course.</p>
-                <p>Scroll to explore what I've created this semester!</p>
+                <p>Scroll to explore what I've created this semester, and admire my collection of alligator drawings in between!</p>
               </div>
             </div>
             <div className="right-side-intro">
