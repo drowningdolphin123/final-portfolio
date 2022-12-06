@@ -15,8 +15,8 @@
           <a class="navbar-last" href="#AdditionalProjects">More!</a>
         </div>
 
-        <div className="grid-container">
-          
+       
+          <div className="intro">
             <div className="left-side-intro" id="Intro">
               <h2><b>Drowning Dolphin</b></h2>
               <div>
@@ -29,7 +29,9 @@
               src="https://images.emojiterra.com/google/android-11/512px/1f42c.png"
               alt="Emoticon of dolphin"></img>
             </div>
+          </div>
 
+          <div className="grid-container">
             <div className="left-side-item1" id="Personas">
               <div className="card">
                 <a href=""
@@ -39,7 +41,7 @@
                 </a>
               </div>
             </div>
-            <div className="right-side-item1">
+            <div className="center-item1">
               <div className="text">
                 <h3><b>Learning about Profiles</b></h3>
                 <div className="descriptions">
@@ -49,18 +51,20 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div className="right-side-item1">
               <div className="bubbles">
-                <table>
-                  <tr>
-                    <td></td>
-                    <td><img className="bubble" src="https://i.imgur.com/4pXynPQ.png"></img></td>
-                  </tr>
-                  <tr>
-                    <td><img className="bubble" src="https://i.imgur.com/sIb0gaZ.jpg"></img></td>
-                    <td></td>
-                  </tr>
-                </table>
-              </div>
+                  <table>
+                    <tr>
+                      <td></td>
+                      <td><img className="bubble" src="https://i.imgur.com/4pXynPQ.png"></img></td>
+                    </tr>
+                    <tr>
+                      <td><img className="bubble" src="https://i.imgur.com/sIb0gaZ.jpg"></img></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </div>
             </div>
 
             <div className="left-side-item2" id="ResponsiveRedesign">
@@ -75,23 +79,24 @@
                     <td><img className="bubble" src="https://i.imgur.com/SfCdaAf.jpg"></img></td>
                   </tr>
                 </table>
-              </div>
+              </div>   
+            </div>
+            <div className="center-item2">
               <div className="text">
-                <h3><b>Developing a Redesign</b></h3>
-                <div className="descriptions">
-                  <p>
-                    In this project, I learned and practiced the workflow of redesigning a simple website.
-                  </p>
-                  <p>
-                    I first identified the Washoe County Library website as a digital space that needed renovation, then analyzed and identified flaws in the existing interface.
-                  </p>
-                  <p> 
-                    From there, I created low-fidelity and high-fidelity prototypes for various screensizes, and then learned how to build a 
-                    responsive website based on those prototypes.
-                  </p>
-                </div>
+                  <h3><b>Developing a Redesign</b></h3>
+                  <div className="descriptions">
+                    <p>
+                      In this project, I learned and practiced the workflow of redesigning a simple website.
+                    </p>
+                    <p>
+                      I first identified the Washoe County Library website as a digital space that needed renovation, then analyzed and identified flaws in the existing interface.
+                    </p>
+                    <p> 
+                      From there, I created low-fidelity and high-fidelity prototypes for various screensizes, and then learned how to build a 
+                      responsive website based on those prototypes.
+                    </p>
+                  </div>
               </div>
-            
             </div>
             <div className="right-side-item2">
               <div className="card">
@@ -115,7 +120,7 @@
                 </a>
               </div>
             </div>
-            <div className="right-side-item3">
+            <div className="center-item3">
               <div className="text">
               <h3><b>Design with Evaluation</b></h3>
               <div className="descriptions">
@@ -126,17 +131,19 @@
                 </p>
               </div>
               </div>
+            </div>
+            <div className="right-side-item3">
               <div className="bubbles">
-                <table>
-                  <tr>
-                    <td></td>
-                    <td><img className="bubble" src="https://i.imgur.com/tlM8YXf.png"></img></td>
-                  </tr>
-                  <tr>
-                    <td><img className="bubble" src="https://i.imgur.com/1IaUvDb.png"></img></td>
-                    <td></td>
-                  </tr>
-                </table>
+                  <table>
+                    <tr>
+                      <td></td>
+                      <td><img className="bubble" src="https://i.imgur.com/tzPDT3y.png"></img></td>
+                    </tr>
+                    <tr>
+                      <td><img className="bubble" src="https://i.imgur.com/1IaUvDb.png"></img></td>
+                      <td></td>
+                    </tr>
+                  </table>
               </div>
             </div>
         </div>

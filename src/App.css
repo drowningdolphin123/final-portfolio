@@ -45,20 +45,21 @@
 
  }
 
-.left-side-intro {
-  grid-area: ls-intro;
-  text-align: left;
-  padding: 20px;
+ .intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
   margin-top: 48px;
+ }
 
+.left-side-intro {
+  text-align: left;
+  padding: 20px;
 }
 
 .right-side-intro {
-  grid-area: rs-intro;
   padding: 20px;
-  background-image: linear-gradient(rgb(109,247,255), rgb(0,197,205) );
-  margin-top: 48px;
 }
 
 .dolphin {
@@ -77,10 +78,22 @@
   background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
 }
 
+.center-item1 {
+  grid-area: c-profiles;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-width: 600px;
+  background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
+}
+
 .right-side-item1 {
   grid-area: rs-profiles;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -97,8 +110,20 @@
   background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
 }
 
+.center-item2 {
+  grid-area: c-redesign;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 600px;
+  background-image: linear-gradient(rgb(111,101,189), rgb(89,70,178));
+}
+
 .right-side-item2 {
   grid-area: rs-redesign;
+  color: white;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -115,6 +140,18 @@
   background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
 }
 
+.center-item3{
+  grid-area: c-iterative;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-width: 600px;
+  background-image: linear-gradient(rgb(89,70,178), rgb(51,51,161));
+}
+
 .right-side-item3{
   grid-area: rs-iterative;
   display: flex;
@@ -126,6 +163,7 @@
 }
 
 .item4 {
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -172,10 +210,9 @@
   .grid-container {
   display: grid;
   grid-template-areas:
-    'ls-intro rs-intro'
-    'ls-profiles rs-profiles'
-    'ls-redesign rs-redesign'
-    'ls-iterative rs-iterative';
+    'ls-profiles c-profiles rs-profiles'
+    'ls-redesign c-redesign rs-redesign'
+    'ls-iterative c-iterative rs-iterative';
   }
 
   .descriptions {
