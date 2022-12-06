@@ -37,7 +37,8 @@
               <div className="card">
                 <a href=""
                 target="blank">
-                  <img className="screenshots" 
+                  <img className="screenshots"
+                  alt="Sketch of user holding dirty laundry." 
                   src="https://i.imgur.com/5yV8LAU.png"></img>
                 </a>
               </div>
@@ -58,10 +59,14 @@
                   <table>
                     <tr>
                       <td></td>
-                      <td><img className="bubble" src="https://i.imgur.com/4pXynPQ.png"></img></td>
+                      <td><img className="bubble" 
+                      alt="Alligator sketch"
+                      src="https://i.imgur.com/4pXynPQ.png"></img></td>
                     </tr>
                     <tr>
-                      <td><img className="bubble" src="https://i.imgur.com/qjtfzgl.png"></img></td>
+                      <td><img className="bubble" 
+                      alt="Farmer alligator sketch standing next to tractor. Title 'Aint much but it is honest work'."
+                      src="https://i.imgur.com/qjtfzgl.png"></img></td>
                       <td></td>
                     </tr>
                   </table>
@@ -73,12 +78,16 @@
             <div className="bubbles">
                 <table>
                   <tr>
-                    <td><img className="bubble" src="https://i.imgur.com/HzXbXMd.jpg"></img></td>
+                    <td><img className="bubble" 
+                    alt="Alligator sketch with pink water wings."
+                    src="https://i.imgur.com/HzXbXMd.jpg"></img></td>
                     <td></td>
                   </tr>
                   <tr>
                     <td></td>
-                    <td><img className="bubble" src="https://i.imgur.com/SfCdaAf.jpg"></img></td>
+                    <td><img className="bubble" 
+                    alt="Farmer alligator sketch sitting on a hay bale."
+                    src="https://i.imgur.com/SfCdaAf.jpg"></img></td>
                   </tr>
                 </table>
               </div>   
@@ -97,11 +106,11 @@
             <div className="right-side-item2">
               <div className="card">
                 <a id="redesigned-website"
-                  href="https://drowningdolphin123.github.io/responsive-redesign/responsiveRedesign.html"
+                  href="https://drowningdolphin123.github.io/responsive-redesign/index.html"
                   target="blank">
                     <img className="screenshots" 
                     src="https://i.imgur.com/GqtZ1KJ.png"
-                    alt="Screenshot of the website redesign for the Washoe County Library"></img>
+                    alt="Washoe County Library System logo"></img>
                 </a>
               </div>
             </div>
@@ -113,7 +122,7 @@
                 target="blank">
                   <img className="screenshots" 
                   src="https://bookface-images.s3.amazonaws.com/small_logos/d32db90d7196c1ce3567ce75271b6314a38a8b22.png"
-                  alt="Screenshot of Figma page for Dr. Treat"></img>
+                  alt="Dr. Treat logo"></img>
                 </a>
               </div>
             </div>
@@ -134,10 +143,14 @@
                   <table>
                     <tr>
                       <td></td>
-                      <td><img className="bubble" src="https://i.imgur.com/kqcOvtU.jpg"></img></td>
+                      <td><img className="bubble" 
+                      alt="Sketch of alligator on a surf board."
+                      src="https://i.imgur.com/kqcOvtU.jpg"></img></td>
                     </tr>
                     <tr>
-                      <td><img className="bubble" src="https://i.imgur.com/TVW2iPf.jpg"></img></td>
+                      <td><img className="bubble" 
+                      alt="Sketch of alligator sitting at table typing on computer."
+                      src="https://i.imgur.com/TVW2iPf.jpg"></img></td>
                       <td></td>
                     </tr>
                   </table>
@@ -156,21 +169,21 @@
               target="blank">
                 <img className="screenshots" 
                 src="https://www.pngitem.com/pimgs/m/433-4339408_club-penguin-rewritten-wiki-club-penguin-pizza-chef.png"
-                alt="Screenshot of the website designed by Drowning Dolphin for a Club Penguin food court"></img>
+                alt="Club penguin mascot holding a pizza."></img>
               </a>
             </div>
             <div className="card">
               <a href=""
               target="blank">
                 <img className="screenshots" src="https://i.imgur.com/Spo00wU.jpg"
-                alt="Locations Mythos screenshot"></img>
+                alt="Simple image of a compass."></img>
               </a>
             </div>
             <div className="card">
               <a href="https://www.majorarcana.net/"
               target="blank">
                 <img className="screenshots" src="https://i.imgur.com/5hzflr1.png"
-                alt="MajorArcana Logo"></img>
+                alt="Major Arcana Logo"></img>
               </a>
             </div>
             <div className="card">
@@ -178,7 +191,7 @@
               target="blank">
                 <img className="screenshots" 
                 src="https://i.imgur.com/6Ge9YBY.png"
-                alt="Screenshot of Figma page for Lists project"></img>
+                alt="Screenshot of part of the Figma page from the Lists Project"></img>
               </a>
             </div>
           </div>
