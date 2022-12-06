@@ -60,7 +60,7 @@
                       <td><img className="bubble" src="https://i.imgur.com/4pXynPQ.png"></img></td>
                     </tr>
                     <tr>
-                      <td><img className="bubble" src="https://i.imgur.com/sIb0gaZ.jpg"></img></td>
+                      <td><img className="bubble" src="https://i.imgur.com/qjtfzgl.png"></img></td>
                       <td></td>
                     </tr>
                   </table>
@@ -86,14 +86,8 @@
                   <h3><b>Developing a Redesign</b></h3>
                   <div className="descriptions">
                     <p>
-                      In this project, I learned and practiced the workflow of redesigning a simple website.
-                    </p>
-                    <p>
-                      I first identified the Washoe County Library website as a digital space that needed renovation, then analyzed and identified flaws in the existing interface.
-                    </p>
-                    <p> 
-                      From there, I created low-fidelity and high-fidelity prototypes for various screensizes, and then learned how to build a 
-                      responsive website based on those prototypes.
+                    Showcases the workflow of redesigning a simple website. Identified Washoe County Library website as 
+                    needing renovation by analyzing and identifying flaws in the existing interface.
                     </p>
                   </div>
               </div>
@@ -124,8 +118,8 @@
               <div className="text">
               <h3><b>Design with Evaluation</b></h3>
               <div className="descriptions">
-                <p>Worked through the process of mocking up a solution to a chosen startup's content with three other group members.</p>
-                <p>Learned how to break this design pathway into parts, beginning with sketching ideas for the interfaces, then creating
+                <p>Worked through the process of mocking up a solution to a chosen startup's content 
+                  beginning with sketching ideas for the interfaces, then creating
                   an interactive, high-fidelity prototype, then conducting user testing on a revised prototype, and finally contacting the
                   startup.
                 </p>
@@ -137,10 +131,10 @@
                   <table>
                     <tr>
                       <td></td>
-                      <td><img className="bubble" src="https://i.imgur.com/tzPDT3y.png"></img></td>
+                      <td><img className="bubble" src="https://i.imgur.com/kqcOvtU.jpg"></img></td>
                     </tr>
                     <tr>
-                      <td><img className="bubble" src="https://i.imgur.com/1IaUvDb.png"></img></td>
+                      <td><img className="bubble" src="https://i.imgur.com/TVW2iPf.jpg"></img></td>
                       <td></td>
                     </tr>
                   </table>
@@ -151,13 +145,13 @@
 
         <div className="top-item4" id="AdditionalProjects">
           <h3><b>Fun with React + HTML + Figma</b></h3>
-          </div>
+        </div>
           <div className="bottom-item4">
             <div className="card">
               <a href="https://drowningdolphin123.github.io/development/"
               target="blank">
                 <img className="screenshots" 
-                src="https://media.tenor.com/MJWiL7RJ0qoAAAAj/penguin-dance.gif"
+                src="https://www.pngitem.com/pimgs/m/433-4339408_club-penguin-rewritten-wiki-club-penguin-pizza-chef.png"
                 alt="Screenshot of the website designed by Drowning Dolphin for a Club Penguin food court"></img>
               </a>
             </div>
