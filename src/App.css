@@ -56,9 +56,15 @@
   margin-top: 47px;
  }
 
+ .andale {
+  font-family: "Courier New";
+ }
+
+ 
 .left-side-intro {
   text-align: left;
   padding: 20px;
+  width: 500px;
 }
 
 .right-side-intro {
@@ -264,3 +270,4 @@
     font-size: 10px;
   }
 }
+

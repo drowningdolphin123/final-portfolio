@@ -21,7 +21,8 @@
             <div className="left-side-intro" id="Intro">
               <h2><b>Drowning Dolphin</b></h2>
               <div>
-                <p>Hello World! I am a student of Brown University and member of the Fall 2022 CSCI 1300 UI/UX course.</p>
+                <p className="andale">Hello World!</p> 
+                <p>I am a student of Brown University and member of the Fall 2022 CSCI 1300 UI/UX course.</p>
                 <p>Scroll to explore what I've created this semester, and admire my collection of alligator drawings in between!</p>
               </div>
             </div>
@@ -36,7 +37,7 @@
             <div className="item1">
             <div className="left-side-item1" id="Personas">
               <div className="card">
-                <a href=""
+                <a href="https://drowningdolphin123.github.io/p-and-s2/index.html"
                 target="blank">
                   <img className="screenshots"
                   alt="Sketch of user holding dirty laundry." 
@@ -174,7 +175,7 @@
               </a>
             </div>
             <div className="card">
-              <a href=""
+              <a href="https://swimgirlnv.github.io/litr-210-final/"
               target="blank">
                 <img className="screenshots" src="https://i.imgur.com/Spo00wU.jpg"
                 alt="Simple image of a compass."></img>
