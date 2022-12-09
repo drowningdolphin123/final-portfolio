@@ -31,6 +31,23 @@
               src="https://images.emojiterra.com/google/android-11/512px/1f42c.png"
               alt="Emoticon of dolphin"></img>
             </div>
+            <div className="wrapper">
+            <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      </div>
           </div>
 
           <div className="grid-container">
@@ -47,7 +64,7 @@
             </div>
             <div className="center-item1">
               <div className="text">
-                <h3><b>Learning about Profiles</b></h3>
+                <h3><b>Personas & Storyboarding</b></h3>
                 <div className="descriptions">
                   <p>
                     Through observing and interviewing individuals interacting with the laundry machines in Hegeman Hall, I created
@@ -96,7 +113,7 @@
             </div>
             <div className="center-item2">
               <div className="text">
-                  <h3><b>Developing a Redesign</b></h3>
+                  <h3><b>Responsive Redesign</b></h3>
                   <div className="descriptions">
                     <p>
                     Showcases the workflow of redesigning a simple website. Identified Washoe County Library website as 
@@ -130,7 +147,7 @@
             </div>
             <div className="center-item3">
               <div className="text">
-              <h3><b>Design with Evaluation</b></h3>
+              <h3><b>Iterative Design</b></h3>
               <div className="descriptions">
                 <p>Worked through the process of mocking up a solution to a chosen startup's content 
                   beginning with sketching ideas for the interfaces, then creating
