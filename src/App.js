@@ -6,19 +6,16 @@
       <div className="App">
         <div className="top-bar" id="navbar">
           <a class="navbar-first" href="#Intro"><strong>Final Portfolio</strong></a>
-          <a href="#Personas">Personas & Storyboarding</a>
+          <a href="#Projects">Projects</a>
           <div class="separator"></div>
-          <a href="#ResponsiveRedesign">Responsive Redesign</a>
-          <div class="separator"></div>
-          <a href="#IterativeDesign">Iterative Design</a>
-          <div class="separator"></div>
-          <a class="navbar-last" href="#AdditionalProjects">More!</a>
+          <a class="navbar-last" href="#About">About</a>
+
         </div>
 
-          <div className="page-content">
+          <div className="page-content" id="Intro">
        
           <div className="intro">
-            <div className="left-side-intro" id="Intro">
+            <div className="left-side-intro" >
               <h2><b>Drowning Dolphin</b></h2>
               <div>
                 <p className="andale">Hello World!</p> 
@@ -32,27 +29,27 @@
               alt="Emoticon of dolphin"></img>
             </div>
             <div className="wrapper">
-            <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      </div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+                <div><span class="dot"></span></div>
+            </div>
           </div>
 
-          <div className="grid-container">
+          <div className="grid-container" id="Projects">
             <div className="item1">
-            <div className="left-side-item1" id="Personas">
+            <div className="left-side-item1">
               <div className="card">
                 <a href="https://drowningdolphin123.github.io/p-and-s2/index.html"
                 target="blank">
@@ -174,6 +171,7 @@
                     </tr>
                   </table>
               </div>
+              
             </div>
             </div>
         </div>
