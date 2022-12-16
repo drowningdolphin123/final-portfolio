@@ -69,6 +69,23 @@
                 UI/UX course, I've learned more about creating a narrative and mapping out a user experience as one might read a story.
               </p>
             </div>
+            <div className="wrapper">
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+            </div>
           </div>
 
           <div className="grid-container" id="Projects">
