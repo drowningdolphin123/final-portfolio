@@ -24,6 +24,14 @@
 }
 
 .navbar-last {
+  font-family: 'Gill Sans';
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   padding-right: 20px !important;
 }
 
@@ -84,7 +92,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgb(0,197,205), rgb(111,101,189));
+  background-image: linear-gradient(#729efd, rgb(111,101,189));
 }
 
 .left-side-item1 {
@@ -209,7 +217,7 @@
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   height: max-content;
   width: max-content;
@@ -221,7 +229,7 @@
   }
   
   .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   }
 
   .grid-container {
@@ -233,7 +241,6 @@
   .descriptions {
     max-width: 500px;
     text-align: justify;
-    padding-left: 10px;
   }
 
   
@@ -247,7 +254,7 @@
   padding: 20px;
 }
 
-.bubble:hover .overlay {
+.bubble:hover {
   opacity: 1;
 }
 
@@ -385,4 +392,66 @@ div .dot {
   100% {
     transform: scale(1.3) translateY(-100px) rotate(360deg);
   }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0,197,205), #729efd );
+}
+
+.about-content {
+  text-align: left;
+  padding: 20px;
+  width: 800px;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-item4 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.right-item4 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.top-item4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-item4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item4-content {
+  margin: 10px;
+  max-width: 220px;
+  text-align: justify;
+}
+
+.needthisreactive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
